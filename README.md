@@ -1,10 +1,10 @@
-# Ember-cli-deploy-github
+# Ember-cli-deploy-github-status
 
 > An ember-cli-deploy-plugin for setting the status on a commit in a PR on [GitHub](https://github.com/).
 
-[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-github.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
-[![Ember Observer Score](http://emberobserver.com/badges/ember-cli-deploy-github.svg)](http://emberobserver.com/addons/ember-cli-deploy-github)
-[![npm version](https://badge.fury.io/js/ember-cli-deploy-github.svg)](https://badge.fury.io/js/ember-cli-deploy-github)
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-github-status.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
+[![Ember Observer Score](http://emberobserver.com/badges/ember-cli-deploy-github-status.svg)](http://emberobserver.com/addons/ember-cli-deploy-github-status)
+[![npm version](https://badge.fury.io/js/ember-cli-deploy-github-status.svg)](https://badge.fury.io/js/ember-cli-deploy-github-status)
 
 ## What is an ember-cli-deploy plugin?
 
@@ -19,7 +19,7 @@ To get up and running quickly, do the following:
 - Install this plugin
 
 ```bash
-$ ember install ember-cli-deploy-github
+$ ember install ember-cli-deploy-github-status
 ```
 
 - Get a github api [token](https://github.com/settings/tokens) make sure the `repo:status` scope is selected
@@ -89,6 +89,6 @@ This will get replaced and look like https://my-app-domain.com/index.html:123abf
 
 ## Note 
 
-`ember-cli-deploy-github` will set the status of the github commit on the `didDeploy`. 
+`ember-cli-deploy-github-status` will set the status of the github commit on the `didDeploy`. 
 
 [2]: http://ember-cli.github.io/ember-cli-deploy/plugins "Plugin Documentation"
