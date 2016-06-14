@@ -10,7 +10,7 @@ const buildPreviewURL = require('./utils/build-preview-url');
 const getNormalizedRepoName = require('./utils/get-normalized-repo-name');
 
 module.exports = {
-  name: 'ember-cli-deploy-github',
+  name: 'ember-cli-deploy-github-status',
   createDeployPlugin(options) {
     var DeployPlugin = DeployPluginBase.extend({
       name: options.name,

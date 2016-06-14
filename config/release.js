@@ -5,7 +5,6 @@ const execSync = require('child_process').execSync;
 module.exports = {
   message: ':tada: %@',
   publish: true,
-  yes: true,
   init(project, tags) {
     execSync(`git hf release start ${tags.next}`, (err) => {
       if (err) {

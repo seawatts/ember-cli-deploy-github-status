@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-deploy-github",
+  "name": "ember-cli-deploy-github-status",
   "version": "0.3.0",
   "description": "An ember-cli-deploy-plugin for updating the status on github.",
   "scripts": {},
