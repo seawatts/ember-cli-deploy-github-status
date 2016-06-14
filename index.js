@@ -46,7 +46,7 @@ module.exports = {
         let githubRepo = this.readConfig('repo');
         githubRepo = getNormalizedRepoName(githubRepo);
         return new Promise((resolve, reject) => {
-          github.statuses.create({
+          github.repos.createStatus({
             user: this.readConfig('userOrOrganization'),
             repo: githubRepo,
             sha: this.readConfig('commitSha'),
