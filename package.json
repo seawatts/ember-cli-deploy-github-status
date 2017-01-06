@@ -22,7 +22,7 @@
   "dependencies": {
     "ember-cli-babel": "^5.0.0",
     "ember-cli-deploy-plugin": "^0.2.2",
-    "github": "^7.0.1",
+    "github": "^7.3.1",
     "urlencode": "^1.1.0"
   },
   "ember-addon": {
