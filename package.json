@@ -20,7 +20,7 @@
     "ember-cli-deploy-plugin"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0",
+    "ember-cli-babel": "^5.2.4",
     "ember-cli-deploy-plugin": "^0.2.2",
     "github": "^7.0.1",
     "urlencode": "^1.1.0"
